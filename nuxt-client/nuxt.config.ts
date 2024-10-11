@@ -6,4 +6,10 @@ export default defineNuxtConfig({
     host: "realtime-nuxt-laravel.test",
   },
   plugins: ["~/plugins/echo.client"],
+  runtimeConfig: {
+    public: {
+      REVERB_KEY: process.env.REVERB_KEY,
+      REVERB_HOST: process.env.REVERB_HOST,
+    },
+  },
 });

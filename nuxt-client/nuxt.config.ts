@@ -5,4 +5,5 @@ export default defineNuxtConfig({
   devServer: {
     host: "realtime-nuxt-laravel.test",
   },
+  plugins: ["~/plugins/echo.client"],
 });

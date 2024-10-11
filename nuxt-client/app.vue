@@ -20,6 +20,9 @@ const sendRequest = () => {
 
 <template>
   <Navigation />
+
+  <Whisper />
+
   <div>Realtime</div>
 
   <button @click="sendRequest">Send request</button>

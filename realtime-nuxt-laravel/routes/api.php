@@ -5,6 +5,7 @@ use App\Events\PrivateEventExample;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/realtime', function () {
+    info('Broadcasting event');
     broadcast(new PrivateEventExample());
 });
 

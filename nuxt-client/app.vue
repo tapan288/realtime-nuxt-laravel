@@ -7,5 +7,6 @@ onMounted(() => {
 </script>
 
 <template>
+  <Navigation />
   <div>Realtime</div>
 </template>

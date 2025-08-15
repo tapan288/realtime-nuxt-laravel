@@ -1,6 +1,4 @@
 <script setup>
-import { PusherPrivateChannel } from "laravel-echo/src/channel";
-
 let channel;
 
 onMounted(() => {
